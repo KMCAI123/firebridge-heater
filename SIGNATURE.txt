@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=FireBridge Heater Preview
+Signer #1 certificate SHA-256 digest: 336141256cc510f600747f32996d45eaa457f1a3a38944d95fa89e56312b2fcf
+Signer #1 certificate SHA-1 digest: c39ad4d33befa74f68b776d3568148321578c601
+Signer #1 certificate MD5 digest: 7743f01c6bbe29fde88accd2e9464886
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 76177fd5cee51a5ce5f4a8fe6bb39eb485ef682732379f2ce947ac9dda6eed1d
+Signer #1 public key SHA-1 digest: fae2067bceb85bf5d62cac548a0b8abd671412b1
+Signer #1 public key MD5 digest: ab8be8bcd9da705e51000b2c08ed6ed6
