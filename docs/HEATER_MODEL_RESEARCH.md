@@ -1,5 +1,7 @@
 # Diesel heater model and app research
 
+**Release update (2026-11-22):** v0.6.0 adds four experimental AA55/AA66 command/status adapters. The following research records pre-release experiments; see [current adapter limits](HEATER_TWO_WAY_0.6.0.md). Hcalory and other families remain research-only.
+
 Research date: 2026-11-21. Three independent model audits plus offline protocol tests. **This is a research roadmap, not the released APK compatibility list.** No additional heater was operated or physically validated during this work.
 
 ## Specific models and apps
