@@ -6,6 +6,13 @@ Connect one compatible HeaterCC Bluetooth diesel heater to Apple Home using an e
 
 ## Download
 
+**In Downloader, enter code `2819860` and choose Go.**
+
+**[Full step-by-step guide with Firestick screenshots](INSTALL.md)**
+
+Short link: [aftv.news/2819860](https://aftv.news/2819860). This code downloads v0.5.0-preview.1.
+
+
 **[Download the Fire TV APK](https://github.com/KMCAI123/firebridge-heater/releases/download/v0.5.0-preview.1/firebridge-heater-preview.apk)** (approximately 102 MB).
 
 [Release and checksums](https://github.com/KMCAI123/firebridge-heater/releases/tag/v0.5.0-preview.1)
@@ -13,14 +20,18 @@ Connect one compatible HeaterCC Bluetooth diesel heater to Apple Home using an e
 ## Install and set up
 
 1. On a compatible Android-based Fire TV, install/open Downloader. Enable permission for Downloader to install unknown apps in the Fire TV developer settings. Names and availability vary by Fire TV model. This permission is required for Downloader; the APK cannot authorize itself.
-2. Enter `https://github.com/KMCAI123/firebridge-heater` in Downloader, then select **Download the Fire TV APK**. Alternatively enter the direct APK link above.
+2. Enter **2819860** in Downloader and choose **Go**. Alternatively use the direct APK link above.
 3. Install and open **FireBridge Heater Preview**.
 4. Choose **Find my VEVOR / HeaterCC heater**. Allow Location on older Android versions, or Nearby devices on newer versions if prompted. Older devices may require location services enabled for BLE discovery. No geographic location is calculated by this app.
 5. Close any vendor phone app or other bridge holding the heater's Bluetooth connection. Select your heater and choose **Check heater**. This sends status requests, not a heating command.
 6. Wait for current heater status, then select **Show private Apple Home pairing code**.
-7. On your iPhone, open Home, choose **+ â†’ Add Accessory**, and scan the displayed code or enter it manually via More Options. The iPhone and Fire TV must have local network discovery access to each other.
+7. On your iPhone, open Home, choose **+ → Add Accessory**, and scan the displayed code or enter it manually via More Options. The iPhone and Fire TV must have local network discovery access to each other.
 
 Keep the Fire TV powered and within Bluetooth range. The app supports an on/off heating accessory and ambient temperature sensor, not target-temperature or heat-level adjustment. Apple remote access depends on your own Apple Home configuration and home hub.
+
+![FireBridge reading live heater status](docs/images/live-status.png)
+
+See the [illustrated setup guide](INSTALL.md) for every step and troubleshooting.
 
 ## Compatibility and evidence
 
