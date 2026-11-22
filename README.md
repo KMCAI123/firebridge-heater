@@ -6,9 +6,19 @@
 
 > **Before downloading or using the APK, read the [full safety and liability disclaimer](DISCLAIMER.md).** Software is supplied as-is, with warranty and liability exclusions only to the extent permitted by law. Non-waivable legal rights remain protected.
 
-Connect one compatible Bluetooth diesel heater to Apple Home using an existing Android-based Fire TV. No Home Assistant or additional bridge computer is required.
+Connect one compatible Bluetooth diesel heater to Apple Home using an existing Android-based Fire TV. No Home Assistant or additional bridge computer is required; Apple devices for Apple Home setup and any required Apple home hub are separate requirements.
 
 **Experimental preview.** One HeaterCC heater completed a supervised start, normal startup confirmation, stop, cooldown telemetry and return-to-off telemetry on the test Firestick. Final physical fan-stop confirmation, Apple Home pairing, reboot/standby recovery and extended streaming coexistence remain unverified. The new AA55/AA66 adapters have offline tests only; no additional heater model has been physically validated.
+
+## Apple Home equipment required
+
+**To add this bridge to Apple Home, you need an iPhone or iPad with Apple's Home app, signed in to your Apple Account. A Firestick and heater alone are not enough for Apple Home setup.** Keep the Apple device and Firestick on the same local network during pairing.
+
+For Apple Home access away from home, you also need a supported **Apple home hub**, such as a **HomePod, HomePod mini or Apple TV 4K**, configured for your home. The Firestick runs the heater bridge; it does **not** replace an Apple home hub. An iPad is not supported as a home hub on the current Apple Home architecture.
+
+A home hub provides Apple Home features; it does not remove this project's requirement for an awake adult to supervise the heater in person. Do not configure unattended heater starts.
+
+Apple's requirements: [Adding accessories requires an iPhone or iPad](https://support.apple.com/en-au/126198), [home hubs for remote access](https://support.apple.com/en-ie/guide/iphone/iph1d10f7f2b/ios), and [current home-hub requirements](https://support.apple.com/en-in/102096). Apple Home pairing remains unverified in this preview's test record.
 
 ## Download
 
