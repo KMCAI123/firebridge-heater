@@ -27,8 +27,8 @@ Keep the Fire TV powered and within Bluetooth range. The app supports an on/off 
 - Android API 26 or newer; ARMv7 or ARM64; Bluetooth Low Energy.
 - Not compatible with every Fire TV generation or non-Android Fire TVs.
 - VEVOR branding alone is insufficient. The heater must speak the supported HeaterCC/ABBA protocol; discovery candidates are checked using live status.
-- Tested: AFTSSS Firestick, Fire OS 7 / Android 9, 32-bit ARM. APK installation through PC ADB, remote-button navigation, heater discovery and valid status were successful. Homebridge reported reachable.
-- Not yet tested: Downloader installation permission workflow, pairing from iPhone, actual power operation, completed cooldown, cold boot, standby and prolonged operation.
+- Tested: AFTSSS Firestick, Fire OS 7 / Android 9, 32-bit ARM. APK installation through PC ADB, remote-button navigation, heater discovery and valid status were successful. Homebridge reported reachable. The public GitHub APK also downloaded successfully through Downloader 2.0.4 on the Firestick and reached the Android installer; installation of that differently signed release was cancelled to preserve the existing test app.
+- Not yet tested: Fresh-device Downloader permission workflow, pairing from iPhone, actual power operation, completed cooldown, cold boot, standby and prolonged operation.
 - The APK is about 102 MB and expands its runtime on first launch; allow ample free storage beyond the download size.
 
 Use only with a correctly installed heater and its original controller/power supply. Keep normal heater safety systems intact. Do not depend on this preview as a safety control. Initial heating tests should be supervised.
