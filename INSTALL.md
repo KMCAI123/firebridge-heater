@@ -1,5 +1,9 @@
 # Install FireBridge Heater Preview on Fire TV
 
+> **WARNING — USE AT YOUR OWN RISK.** Experimental heater-control software can fail and may contribute to fire, carbon monoxide poisoning, serious injury, death or property damage. **Never operate a heater through this project unattended or unmonitored. A responsible adult must be physically present, awake and watching throughout startup, operation, shutdown and cooldown, and must verify that the heater functions correctly.** Do not rely on an app, camera or notification as a substitute. Do not enable unattended starts or automations.
+>
+> **Before downloading or using the APK, read the [full safety and liability disclaimer](DISCLAIMER.md).** Software is supplied as-is, with warranty and liability exclusions only to the extent permitted by law. Non-waivable legal rights remain protected.
+
 **Downloader code: `2819860`**  
 **Short link: [aftv.news/2819860](https://aftv.news/2819860)**  
 **[Direct APK download](https://github.com/KMCAI123/firebridge-heater/releases/download/v0.5.0-preview.1/firebridge-heater-preview.apk)**
@@ -24,7 +28,7 @@ No Home Assistant, cloud account, computer or extra bridge hardware is required 
 
 1. From Fire TV Home, open **Find/Search** and search for **Downloader** by **AFTVnews**.
 2. Install it from the Amazon Appstore, then open it.
-3. Open Fire TV **Settings → My Fire TV → Developer Options**. On some devices, the category is called **Device & Software**.
+3. Open Fire TV **Settings â†’ My Fire TV â†’ Developer Options**. On some devices, the category is called **Device & Software**.
 4. If Developer Options is hidden, open **About**, highlight the device name and press the remote's **Select** button seven times, then go back.
 5. Under **Install Unknown Apps**, enable **Downloader**. Older versions may instead have a general **Apps from Unknown Sources** switch.
 
@@ -75,7 +79,7 @@ Wait for first-launch runtime preparation and the Bluetooth connection to finish
 
 ![Verified heater state, ambient temperature and voltage](docs/images/live-status.png)
 
-The screenshot is a real test reading: **off, 66°F, 13 V**. Your values will differ. Do not assume a stale or unavailable reading confirms the current physical state.
+The screenshot is a real test reading: **off, 66Â°F, 13 V**. Your values will differ. Do not assume a stale or unavailable reading confirms the current physical state.
 
 If no heater appears, close its vendor app, ensure another bridge is not connected, check permissions, move the Fire TV closer and scan again. Bluetooth range depends on placement and obstructions.
 
@@ -86,19 +90,19 @@ If no heater appears, close its vendor app, ensure another bridge is not connect
 1. Scroll down with the remote to **Add to Apple Home**.
 2. Wait for **Homebridge is reachable**.
 3. Select **Show private Apple Home pairing code**. Use the code generated on **your own Fire TV**, not a screenshot from another installation.
-4. On your iPhone, open **Home → + → Add Accessory**.
+4. On your iPhone, open **Home â†’ + â†’ Add Accessory**.
 5. Scan the code displayed on the TV. If scanning is not practical, use the manual setup option and enter the displayed HomeKit code. Follow the prompts to select your home/room and name the accessories.
 6. This preview is intended to expose a heating on/off accessory and an ambient-temperature sensor. It does not implement target-temperature or heat-level controls.
 
 The screenshot intentionally stops before revealing a private pairing code. iPhone pairing has **not yet been completed in this preview's test record**, so no successful iPhone pairing screenshot is claimed. Apple's general instructions are available in [Set up accessories with Home](https://support.apple.com/en-euro/guide/iphone/iph125110541/27/ios/27).
 
-## 7. Normal operation and first supervised test
+## 7. Continuous supervision and every-use checks
 
 Keep the Fire TV powered, connected to the network and within Bluetooth range. Turning off a TV may also remove power from its USB ports; a Firestick powered that way will stop acting as a bridge. Use the Fire TV's intended power supply.
 
 The app includes **Start automatically after reboot**, but cold-start/standby reliability has not yet been validated. Verify current status after any restart. Remote access outside your home depends on your Apple Home configuration; this APK is not an Apple home hub.
 
-Only test heating when the heater is correctly installed and supervised. Confirm physical operation and fresh status before relying on a control. An off request is intended to use the heater's normal cooldown; never interrupt heater power to simulate an off command. If confirmation is missing, check the heater's own controller rather than repeatedly sending power commands. Actual start/stop and completed cooldown remain untested in this preview.
+Every operation requires a correctly installed heater and a responsible adult physically present and awake to observe it. Never operate unattended or while sleeping, and do not configure unattended starts or automations. Confirm physical operation and fresh status before relying on a control. An off request is intended to use the heater's normal cooldown; never interrupt heater power to simulate an off command. If confirmation is missing, check the heater's own controller rather than repeatedly sending power commands. Actual start/stop and completed cooldown remain untested in this preview.
 
 ## Troubleshooting
 
